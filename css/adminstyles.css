@@ -1,0 +1,109 @@
+
+body{
+    background-color:rgb(27, 26, 26); 
+    margin: 0;
+    padding: 0;
+    width: 100%; /* full window width */
+    height:100%;
+   
+}
+
+
+.navbar-fixed-top{
+    background-color:rgb(32, 31, 31); 
+    -webkit-box-shadow: 0px 9px 11px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 9px 11px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 9px 11px -8px rgba(0,0,0,0.75);
+    height:35px; 
+    
+}
+li{
+   margin-right:30px;
+   list-style-type: none;
+    color:white;
+    padding:5px;
+}
+.col-sm-9{
+    margin-top:30px;
+    background-color:rgb(185, 187, 187); 
+}
+.col-sm-3{
+    margin-top:50px;
+    color:rgb(88, 95, 105);
+    letter-spacing:1px;
+}
+.col-sm-9 h1{
+padding:20px;
+  font-size:16px;
+  text-align:center;
+  letter-spacing:0.5px;
+  color:rgb(112, 112, 112);
+}
+.col-sm-3 h2{
+    font-size:18px;
+    text-align:center;
+}
+#Side_Menu a{
+    color: #a5a5ac;
+    border-radius:3px;
+}
+#Side_Menu .active a{
+    color: #ffffff;
+    background-color: rgb(33, 163, 219);
+    font-weight: bold;
+    
+}
+#Side_Menu a:hover{
+    color: #54d5f5;
+    background-color: #353636;
+    display: block;
+}
+#Side_Menu .active{
+    color: #54d5f5;
+    background-color: #353636;
+   
+}
+/* footer styles */
+
+.footer{
+  background-color:rgb(26, 25, 25); 
+   text-align:center;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  border-top:1px solid rgb(73, 73, 73);
+  
+    
+}
+
+
+.error {
+    padding-left: 2%;
+    padding-top: 1%;
+    color: #c60000;
+    margin-bottom: 0;
+}
+
+th{
+    font-size:12px; 
+    text-align:center; 
+  }
+tr{
+  font-size:12px; 
+  text-align:center; 
+}
+td{
+    font-size:12px;  
+    text-align:center;
+  }
+.img-responsive{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Side_Menu{
+    font-size:12px;
+    border-radius: 3px;
+}
